@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Part 1</title>
+</head>
+
+<body>
+
+    <div>
+        <div id="box">
+            <h1>Notes</h1>
+        </div>
+
+        <h3>Choose a language</h3>
+
+        <button id="lang" onclick="fiClick()">Fi</button>
+        <button id="lang" onclick="sweClick()">Sve</button>
+
+        <p id="lol">Language chosen:
+        <p id="chosenLang"></p>
+        </p>
+
+        <input type="text" placeholder="Finnish notes here" id="fiNotes">
+        <input type="text" placeholder="Swedish notes here" id="sweNotes">
+        <div>
+            <button id="saveFi" class="save" onclick="saveFiNotes()">Save</button>
+            <button id="saveSwe" class="save" onclick="saveSweNotes()">Save</button>
+        </div>
+        <div id="fiDisplay" class="display"></div>
+        <div id="sweDisplay" class="display"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- Skapa en webb app som man spara anteckningar på olika språk. När man lägger till en anteckning lägger man till både på svenska och finska
+
+Skapa en index.html och script.js
+På index sidan kan man välja språk och lägga till anteckningar på både finska och svenska
+Det språk som du väljer sparas i localstorage
+har du valt svenska visas bara anteckningar på svenska
+OBS!! Styla, ingen svartvit web app godkänns!! -->
